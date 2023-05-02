@@ -8,7 +8,7 @@ public class Main {
 
         if (amountMobileAccount > 1000) {
             bonus = amountMobileAccount / 100;
-        } else if (amountMobileAccount < 1000) {
+        } else {
             bonus = 0;
         }
         System.out.println("Сумма бонуса: " + bonus);
